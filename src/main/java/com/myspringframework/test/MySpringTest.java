@@ -16,6 +16,7 @@ public class MySpringTest {
         Object user = applicationContext.getBean("user");
         System.out.println(user);
         System.out.println("测试git提交");
+        System.out.println("第一次测试合并merge");
     }
 
 }
