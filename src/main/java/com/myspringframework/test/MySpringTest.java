@@ -15,6 +15,7 @@ public class MySpringTest {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("myspring.xml");
         Object user = applicationContext.getBean("user");
         System.out.println(user);
+        System.out.println("测试git提交");
     }
 
 }
