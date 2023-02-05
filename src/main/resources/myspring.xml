@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="address" class="com.myspringframework.bean.Address">
+        <property name="city" value="云南"/>
+        <property name="street" value="mile"/>
+        <property name="zipcode" value="652399"/>
+    </bean>
+    <bean id="user" class="com.myspringframework.bean.User">
+        <property name="name" value="张三"/>
+        <property name="age" value="27"/>
+        <property name="date" ref="date"/>
+        <property name="address" ref="address"/>
+    </bean>
+    <bean id="date" class="java.util.Date"/>
+</beans>
