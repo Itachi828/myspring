@@ -19,6 +19,7 @@ public class MySpringTest {
         System.out.println("第一次测试合并merge");
         System.out.println("第二次测试合并——冲突合并-main");
         System.out.println("第二次测试合并merge-冲突合并-git_text");
+        System.out.println("第一次测试Github-main");
     }
 
 }
